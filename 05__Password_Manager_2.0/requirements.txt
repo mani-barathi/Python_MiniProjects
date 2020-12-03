@@ -1,0 +1,4 @@
+pyperclip==1.8.0
+SQLAlchemy==1.3.20
+cryptography==3.0
+mysqlclient==2.0.1
