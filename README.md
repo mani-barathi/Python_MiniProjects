@@ -1,6 +1,5 @@
 # Python_MiniProjects
-This Repository contains Projects which I did when I started learning Python.
-I think these are all great projects to get familiar with Basics of Programming (Loops, Object Oriented Programming, Database Connectivity, GUI). 
+
 
 ### 01 Beginner_Projects
 * This folder contains programs which covers the very basic concept of programming.
