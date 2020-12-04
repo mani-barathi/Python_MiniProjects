@@ -6,6 +6,7 @@ A Basic Movie REST API where user can,
 * get all movies (GET request)
 
 #### To run this project on local machine
-* install all modules listed in the requiremts by typing _pip install -r requirements_
+* clone the repo
+* install all modules listed in the requiremets.txt by typing _pip install -r requirements.txt_ in your console
 * run app.py
 * use test.py to send request to the server
