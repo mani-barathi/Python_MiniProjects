@@ -5,6 +5,6 @@
 1. **requests** to make request to webpages
 1. **beautifulsoup** to do webscraping 
 
-To install the modules run *_pip install requests beautifulsoup4_* in your command line
+To install the modules run **_pip install requests beautifulsoup4_** in your command line
 
 _this program might not work for all instagram account, due to the slight differences in instagram page html code._
