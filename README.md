@@ -1,10 +1,15 @@
 ## Python_MiniProjects
+This Repository is a Collection of beginner to intermediate Python projects.
 
+**Any Contribution is always welcomed! 🙂**
+<hr />
+
+### 📃 Project List
 #### 01 Beginner_Projects
-This folder contains programs which covers the very basic concept of programming.
+* This folder contains programs which covers the fundamental concepts of programming(loops, Object oriented programming, DSA).
 
 #### 02 Downloads_Manager
-This project is all about moving files from downloads folder to their appropriate folders.(ex: .mp3 files will be moved to music folder)
+* This project is all about moving files from downloads folder to their appropriate folders.(ex: .mp3 files will be moved to music folder)
 
 #### 03 Expense_Tracker
 * A simple implementation of expense tracker where user can enter the amount, and it will keep track of money which has been spent in a particular week,month.
@@ -32,12 +37,10 @@ This project is all about moving files from downloads folder to their appropriat
 * It uses Web Scraping (grabbing information from web page) to get profile details.
 
 #### 10 News_Reader
-* This script reads News.
-* All the news information are fetched from a Third Party API.
+* This script reads News. All the news information are fetched from a Third Party API.
 
 #### 11 Youtube_Channel_Info
-* This program fetches the information about a Youtube Channel(no of subscribers, view count ,likes count, comments)
-* It uses Youtube developer API.
+* This program fetches the information about a Youtube Channel(no of subscribers, view count ,likes count, comments) by using Youtube developer API.
 
 #### 12 Notepad
 * A text editor developed using tkinter module in python.
