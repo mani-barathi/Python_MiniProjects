@@ -1,10 +1,10 @@
 ## Python_MiniProjects
 
 #### 01 Beginner_Projects
-* This folder contains programs which covers the very basic concept of programming.
+This folder contains programs which covers the very basic concept of programming.
 
 #### 02 Downloads_Manager
-* This project is all about moving files from downloads folder to their appropriate folders.(ex: .mp3 files will be moved to music folder)
+This project is all about moving files from downloads folder to their appropriate folders.(ex: .mp3 files will be moved to music folder)
 
 #### 03 Expense_Tracker
 * A simple implementation of expense tracker where user can enter the amount, and it will keep track of money which has been spent in a particular week,month.
