@@ -11,6 +11,7 @@ SETUP_EXECUTABLES_DIR = r'C:\Users\manib\Downloads\setup or softwares'
 
 
 def moveFile(file):
+    # os.path.splittext(file) will return the name, extension of tha file
     filename, file_extension = os.path.splitext(file.lower())
 
     try :
