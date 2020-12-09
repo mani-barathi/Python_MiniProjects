@@ -10,8 +10,6 @@ IG_code=IG.text
 # passing the instagram page source code to bs4 object
 soup=BeautifulSoup(IG_code,'lxml')
 # print(soup)
-#saving the name from the webpage
-name=soup.title.text.split("(")[0].strip()
 
 # getting the details of followers,following and posts
 metatag=soup.find('meta',property='og:description')
