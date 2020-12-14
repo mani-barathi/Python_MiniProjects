@@ -12,13 +12,8 @@ soup=BeautifulSoup(IG_code,'lxml')
 # print(soup)
 
 # getting the details of followers,following and posts
-<<<<<<< HEAD
-metatag=soup.find('meta',property='og:description')
-info=metatag["content"]
-=======
 metatag = soup.find('meta',property='og:description')
 info = metatag["content"]
->>>>>>> 0499dd13b767566bed6ab524f7b581fd1b52c04b
 
 info = info.replace(',','')
 info = info.split(' ')
@@ -26,11 +21,7 @@ info = info.split(' ')
 
 
 # creating a dictionary out of all information
-<<<<<<< HEAD
-data={
-=======
 data = {
->>>>>>> 0499dd13b767566bed6ab524f7b581fd1b52c04b
 	'username':f'@{username}',
 	'followers':info[0],
 	'following':info[2],
