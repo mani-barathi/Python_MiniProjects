@@ -4,7 +4,7 @@ from tkinter import *
 from PIL import ImageTk,Image
 
 # ! Change the instagram ID here !!!!!!!!!!
-ID ='@therock'
+ID ='manibarathi_s'
 
 class App:
 	def __init__(self):
