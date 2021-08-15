@@ -6,7 +6,7 @@ username="manibarathi_s"
 # requesting the instagram site 
 IG=requests.get(f'https://www.instagram.com/{username}/')
 IG_code=IG.text
-
+print(IG_code)
 # passing the instagram page source code to bs4 object
 soup=BeautifulSoup(IG_code,'lxml')
 # print(soup)

@@ -42,7 +42,7 @@ class App:
                 data = result.fetchone()
                 print(f'{data[0]} ---> {data[1]}')
         else:
-            print("service or password is invalid")
+            print("service is invalid")
 
     def viewAllServices(self):
         try:

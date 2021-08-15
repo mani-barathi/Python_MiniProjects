@@ -43,7 +43,7 @@ class LinkedList:
 		print('Node prepended')
 		self.length += 1
 
-	# insert new Node after a existing Node
+	# insert new Node after a existing Node by passing the existing node's value
 	def insertNode(self,new_node,value):
 		prev_node = self.searchNode(value)
 		if prev_node:
@@ -60,7 +60,7 @@ class LinkedList:
 			if self.head.data == value:	
 				self.head = self.head.next
 				print(f'Node with {value} deleted')
-				self.length -= 1	# decrement the length of the list
+				self.length -= 1				# decrement the length of the list
 			else:
 				temp = self.head
 				prev = self.head
@@ -106,7 +106,7 @@ class LinkedList:
 			temp = self.head
 			temp_2 = None
 											# every time when outer loop iterates 
-			while temp.next:				# smallest node is being set from the start
+			while temp.next:						# smallest node is being set from the start
 				temp_2 = temp.next
 				while temp_2:
 					if temp.data > temp_2.data:
